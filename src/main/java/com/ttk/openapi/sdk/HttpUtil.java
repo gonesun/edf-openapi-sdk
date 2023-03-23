@@ -16,8 +16,6 @@ import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.http.util.EntityUtils;
-//import org.slf4j.Logger;
-//import org.slf4j.LoggerFactory;
 
 import com.alibaba.fastjson.JSONObject;
 
@@ -27,9 +25,9 @@ import com.alibaba.fastjson.JSONObject;
  * @author lvaolin
  * 18/11/7 下午3:46
  */
-public class TtkHttpUtil {
+public class HttpUtil {
 
-    private static final Logger log = Logger.getLogger(TtkHttpUtil.class.getName());
+    private static final Logger log = Logger.getLogger(HttpUtil.class.getName());
 
     private static String sdkVersion = null;
 
@@ -150,7 +148,7 @@ public class TtkHttpUtil {
         String uriParameters = "?access_token=" + access_token + "&timestamp=" + timestamp + "&sign=" + sign;
 
         // 发送请求
-        JSONObject jsonObject = TtkHttpUtil.post(url + uriParameters, requestBodyData, header);
+        JSONObject jsonObject = HttpUtil.post(url + uriParameters, requestBodyData, header);
 
         // 得到结果
         return jsonObject;

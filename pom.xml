@@ -6,7 +6,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>io.github.gonesun</groupId>
     <artifactId>edf-openapi-sdk</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <packaging>jar</packaging>
     
     <parent>
@@ -16,7 +16,7 @@
     </parent>
 
     <name>edf-openapi-sdk</name>
-    <url>https://github.com/thethreekingdoms/ttk-edf-openapi-sdk</url>
+    <url>https://github.com/gonesun/ttk-edf-openapi-sdk</url>
     <description>The sdk for edf framework</description>
 
     <licenses>
@@ -34,9 +34,9 @@
     </developers>
 
     <scm>
-        <connection>scm:git:https://github.com/thethreekingdoms/ttk-edf-openapi-sdk.git</connection>
-        <developerConnection>scm:git:git@github.com:thethreekingdoms/ttk-edf-openapi-sdk.git</developerConnection>
-        <url>https://github.com/thethreekingdoms/ttk-edf-openapi-sdk.git</url>
+        <connection>scm:git:https://github.com/gonesun/ttk-edf-openapi-sdk.git</connection>
+        <developerConnection>scm:git:git@github.com:gonesun/ttk-edf-openapi-sdk.git</developerConnection>
+        <url>https://github.com/gonesun/ttk-edf-openapi-sdk.git</url>
     </scm>
 
     <properties>
